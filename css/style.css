@@ -1,7 +1,43 @@
 /* common* { */
-   * box-sizing: {border-box;
-}
 
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: ;
+    color: ;
+  }
+  
+  .container {
+    width: 1287px;
+    margin: 0 auto;
+    border: 1px solid red;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  .btn {
+    display: inline-block;
+    min-width: 513px;
+    padding: 24px;
+    font-family: inherit;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background-color: #4B0A64;
+    border: 4px solid #4B0A64;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
 /* header */
 
 .header{
@@ -10,16 +46,30 @@
     padding: 40px 0;
 }
 
-.nav {
+.header-nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-}
+  }l
+
+  .header-btn {
+    margin: 42px 0px 41px 122px;
+    padding: 0px;
+
+  }
+
+  .header-logo {
+
+  }
+
+  .header-number {
+    text-decoration: none;
+  }
 
 /* desc */
 
 .desc{
-    background-image: url(../images/promo.jpg);
+    background-image: url(../images/goodpromo.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,9 +77,8 @@
     padding: 350px 0;
 }
 .desc-title {
-
-
-
+    margin-bottom: 60px;
+    margin-top: 0;
 }
 
 .desc-text {
@@ -37,42 +86,30 @@
 
 }
 
+/* facts */
 
-option.list {
+.option-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
     margin-left: -15px;
     margin-right:-15px ;
+    list-style: none;
 }
+h3 .option-card {
 
+}
 .option-item {
     width: 33.33%;
     padding: 15px;
+    border: 1px solid blue;
 }
-)
 
-.desc-title{
-    color:red;
-    font-style: 100px;
-}
-.desc-text{
-    color:white
-}
-.facts-desc{
-width: 406px;
-height: 108px;
-left: 81px;
-top: 428px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 26px;
-line-height: 140%;
-}
+
+
 
 .footer{
     width: 1400px;
