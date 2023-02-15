@@ -59,8 +59,15 @@
   }
 
   .header-logo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2 px solid brown;
 
   }
+  .header-logo {
+
+  } 
 
   .header-number {
     text-decoration: none;
@@ -98,7 +105,9 @@
     margin-right:-15px ;
     list-style: none;
 }
-h3 .option-card {
+
+.option-text {
+
 
 }
 .option-item {
