@@ -73,7 +73,7 @@
     text-decoration: none;
   }
 
-/* desc */
+/* section-desc */
 
 .desc{
     background-image: url(../images/goodpromo.jpg);
@@ -93,7 +93,7 @@
 
 }
 
-/* facts */
+/* section-with-facts */
 
 .option-list {
     display: flex;
@@ -116,35 +116,15 @@
     border: 1px solid blue;
 }
 
-
-
+/* section-lead */
+.lead-visual {
+  display: flex;
+  justify-content: space-between;
+}
 
 
 .footer{
-    width: 1400px;
-    background: #060D10;
-    padding: 3em;
-    margin:0 auto;
-    color:white;
-    height: 114px;
-}
-.footer.item1{
-    background-color: red;
-    display: unline-block;
-    vertical-align: top;
-    width: 400px;
-}
-.footer.item2{
-    width: 600px;
-}
-.footer.item3{
-    width: 300px;
-    text-align: right;
-}
-.footer a{
-    text-decoration: none;
-}
-.footer a: hover{
-    text-decoration:underline
+   
+
 
 }
