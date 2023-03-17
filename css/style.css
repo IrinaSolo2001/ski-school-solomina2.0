@@ -77,7 +77,7 @@
     padding: 21px 107px;
     border: 3px solid #060D10;
     border-radius: 4px;
-    background: rgba(196, 196, 196, 0), .1);
+    background: rgba(196, 196, 196, .1);
     margin-bottom: 130px;
     display: block;
     text-aligh:center;
@@ -116,7 +116,14 @@
   .header-number {
     text-decoration: none;
     font-size: 28px;
+    color: #060D10;
+    
   }
+  .header-number:hover {
+    color: white;
+
+  }
+
 
 /* section-desc */
 
@@ -136,10 +143,12 @@
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
+  text-transform: uppercase;
   min-width: 1278px;
   line-height: 89px;
   margin-bottom: 60px;
   margin-top: 0;
+
   
 }
 
@@ -170,6 +179,7 @@
 .facts-title {
   font-family: 'Oswald';
   font-size: 48px;
+  text-transform: uppercase;
   text-align: center;
   margin-bottom: 100px;
 }
@@ -190,6 +200,7 @@
 .option-title {
   font-family: 'Oswald';
   text-align: left;
+  text-transform: uppercase;
   margin-top: 70;
   margin-bottom: 25px;
 
@@ -217,7 +228,7 @@
 /* section-lead */
 
 .lead {
-  linear-gradient(208.35deg, rgba (102,209,255,.1) 43.85%, rgba(196, 196, 196, 0) 43.86%);
+  background:linear-gradient(208.35deg, rgba(102,209,255,.1) 43.85%, rgba(196, 196, 196, 0) 43.86%);
   
   
 }
@@ -233,10 +244,12 @@
  }
 .lead-title {
   font-family: Oswald;
-  padding-bottom: 60px;
-  padding-top: 170px;
   text-align: center;
   font-size: 48px;
+  text-transform: uppercase;
+  padding-bottom: 60px;
+  padding-top: 170px;
+  
 
 
 
